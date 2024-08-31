@@ -1,0 +1,99 @@
+#alii {
+  border-width: 5px;
+  border-color: #f50000;
+  width: 100%;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  background-color: #262626;
+  color: #ffffff;
+}
+
+#ali1 {
+  background-color: #ab0000;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#ali0 {
+  background-color: #ab0000;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.iraqian {
+  font-size: 20px;
+  color: #f50000 !important;
+  font-weight: bold;
+  text-align: center;
+}
+
+#equation[type=text] {
+  width: 13cm;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #ab0000;
+  border-radius: 5px;
+  transition: width 0.4s ease-in-out;
+  background-color: #262626; 
+  color: #ffffff; 
+}
+
+#equation[type=text]::placeholder {
+  color: #ffffff; 
+}
+
+#result {
+  width: 13cm;
+  height: 100%;
+  padding: 8px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #ab0000;
+  border-radius: 5px;
+}
+
+.container {
+  width: 100%;
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: #262626;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+html, body {
+  margin: 40;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+body > *:not(hr) {
+  margin: 0;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: row;
+  gap: 170px;
+}
